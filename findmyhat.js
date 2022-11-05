@@ -73,9 +73,9 @@ class Field {
 
           this.print();   //print out the rows and columns
 
-          console.log('^ position X: ' + this.hatPos.x + ' Y: ' + this.hatPos.y); //console log hat x and y positon
+          console.log('hat ^ position X: ' + this.hatPos.x + ' Y: ' + this.hatPos.y); //console log hat x and y positon
           
-          console.log('* position X: ' + this.locationX + ' Y: ' + this.locationY); //console log char x and y position
+          console.log('your * position X: ' + this.locationX + ' Y: ' + this.locationY); //console log char x and y position
 
           this.getInput(); //get input from the user
 
